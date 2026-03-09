@@ -12,3 +12,4 @@ nome = 'Fabricio Daniel'
 idade = 15
 media_do_semestre = 8,45
 situacao_de_aprovacao = True
+print (nome,idade,media_do_semestre,situacao_de_aprovacao)
