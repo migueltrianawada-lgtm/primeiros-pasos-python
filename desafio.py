@@ -28,7 +28,7 @@ vogal = 'a,e,i,o,u,A,E,I,O,U'
 if letra in vogal:
  print(f'{letra} e uma vogal ')
 else:
- print(f'{letra} e uma consonate')
+ print(f'{letra} e uma consoante')
 
 
 
@@ -72,13 +72,42 @@ elif preço3 < preço2 < preço1:
 elif  preço3 < preço1 < preço2:
  print(f'{preço3} e o produto 3 o mais barato')
 
-#6) Escreva um programa que leia três números e os exiba em ordem decrescente.
+#6) Escreva um programa que leia três números e os exiba em ordem crescente.
+nu1 = int(input(' escreva o primeiro  numero '))
+nu2 = int(input(' escreva o segundo  numero '))
+nu3 = int(input(' escreva o treceiro  numero '))
+if nu1 > nu2 > nu3:
+ print( f' os numero em forma crescente são {nu3},{nu2},{nu1}')
+elif nu1 > nu3 > nu2:
+ print( f' os numero em forma crescente são {nu2},{nu3},{nu1}')
+elif nu2 > nu1 > nu3:
+ print( f' os numero em forma crescente são {nu3},{nu1},{nu2}')
+elif nu2 > nu3 > nu1:
+ print( f' os numero em forma crescente são {nu1},{nu3},{nu2}')
+elif nu3 > nu2 > nu1:
+ print( f' os numero em forma crescente são {nu1},{nu2},{nu3}')
+elif nu3 > nu1 > nu2:
+ print( f' os numero em forma crescente são {nu2},{nu1},{nu3}')
 
 
 # 7) Escreva um programa que pergunte em qual turno a pessoa usuária estuda ("manhã", "tarde" ou "noite") e exiba a mensagem "Bom Dia!", "Boa Tarde!", "Boa Noite!", ou "Valor Inválido!", conforme o caso.#
 
+turno = input(' escreva o turno que você estuda ')
+if turno == 'manha':
+ print(f'Bom Dia !')
+elif turno == 'tarde':
+ print(f'Boa tarde!')
+elif turno == 'noite':
+ print(f'Boa Noite!')
+else:
+ print(f'Valor Inválido!')
+
 #Escreva um programa que peça um número inteiro à pessoa usuária e determine se ele é par ou ímpar. Dica: Você pode utilizar o operador módulo
-#
+
+
+
+
+
 # Escreva um programa que peça um número à pessoa usuária e informe se ele é inteiro ou decimal.
 # Escreva um programa que peça um número à pessoa usuária e informe se ele é inteiro ou decimal.
 # Escreva um programa que peça à pessoa usuária três números que representam os lados de um triângulo. O programa deve informar se os valores podem ser utilizados para formar um triângulo e, caso afirmativo, se ele é equilátero, isósceles ou escaleno. Tenha em mente algumas dicas:
