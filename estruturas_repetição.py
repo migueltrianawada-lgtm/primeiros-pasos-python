@@ -12,3 +12,9 @@ while contador <= 3:
 
  print(f'Média: {(nota_1+nota_2)/2}')
  print(contadores)
+
+ # suma normal
+suma = 0
+for nota in notas.values():
+  suma += nota
+suma

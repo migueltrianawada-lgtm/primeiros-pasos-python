@@ -34,5 +34,4 @@ for i in range(1):
 
 print(f'O numero ganador do sorteo e o numero {lista2}')
 
-
   
