@@ -1,4 +1,4 @@
-curso = " Python "
+curso = " Python126 "
 print(curso.upper())
 
 print(curso.lower())
