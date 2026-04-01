@@ -24,6 +24,8 @@ estudante.items()
 estudante.keys()
 #ver tds valores das chaves
 estudante.values()
+#ver tds valores
+estudante.get("matriculas")
 #ver tds valores das chaves
 for chaves in estudante.keys():
   print(estudante[chaves])
